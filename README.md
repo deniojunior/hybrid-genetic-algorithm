@@ -1,18 +1,18 @@
 # hybrid-genetic-algorithm
 This project is a new hybrid genetic algorithm model applied to traveling salesman problem in large scale graphs.
 
-## Clone the repository
+# Compile file
 ```bash
-git clone https://github.com/deniojunior/hybrid-genetic-algorithm
-cd ~/hybrid-genetic-algorithm
+gcc hga.c -o [executable_name]
 ```
 
-## Compile file
+# Run
 ```bash
-gcc hga.c -o [name_executable]
+./[executable_name]
 ```
 
-## Run
-```bash
-./[name_executable]
+# Exemple
+```Bash
+gcc hga.c -o hga
+./hga
 ```
